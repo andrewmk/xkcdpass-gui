@@ -1,0 +1,3 @@
+[submodule "xkcdpass"]
+	path = xkcdpass
+	url = https://github.com/redacted/XKCD-password-generator
