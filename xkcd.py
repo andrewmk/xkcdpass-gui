@@ -57,3 +57,5 @@ while True:
         window['-out-'].update(''.join(password_list))
         for i in range(4):
             window[f'-{i + 1}-'].update(password_list[i])
+
+window.close()
