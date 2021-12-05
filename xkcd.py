@@ -52,7 +52,7 @@ layout += [
 
 window = sg.Window('XKCD password generator', layout, element_justification='centre', size=(870, 1028), finalize=True)
 
-# Insert background image via tinter
+# Insert background image via tkinter
 filename = tkinter.PhotoImage(file = resource_path('battery.png'))
 background_label = tkinter.Label(window.TKroot, image=filename)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
