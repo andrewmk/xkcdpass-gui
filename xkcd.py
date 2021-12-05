@@ -74,3 +74,5 @@ while True:
         break
     if event == '-GEN-':
         gen_password()
+
+window.close()
