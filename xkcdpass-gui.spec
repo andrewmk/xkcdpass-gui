@@ -4,7 +4,7 @@
 block_cipher = None
 
 
-a = Analysis(['xkcd.py'],
+a = Analysis(['xkcdpass-gui.py'],
              pathex=[],
              binaries=[],
              datas=[('battery.png', '.'), ('eff-long', '.')],
