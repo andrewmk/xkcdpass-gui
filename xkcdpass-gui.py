@@ -4,7 +4,7 @@ import os
 import sys
 import tkinter
 
-from xkcdpass import xkcd_password as xp
+from xkcdpass.xkcdpass import xkcd_password as xp
 
 def gen_password():
     # create a wordlist from the default wordfile
@@ -47,7 +47,7 @@ layout += [
     C(h=100),
     W('out', fs=18, w=32, just='centre'),
     C(h=60),
-    [sg.Button('Generate', k='-GEN-', p=0, button_color='white on red')]
+    [sg.Button('Generate', k='-GEN-', p=0, button_color='white on red', bind_return_key=True)]
 ]
 
 window = sg.Window('XKCD password generator', layout, element_justification='centre', size=(870, 1028), finalize=True)
