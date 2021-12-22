@@ -2,7 +2,7 @@
 
 GUI for the XKCD-password-generator python module at https://github.com/redacted/XKCD-password-generator
 
-Uses PySimpleGUI on top of tkinter for the UI.
+Uses [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI) on top of tkinter for the UI.
 
 # Screenshot
 
